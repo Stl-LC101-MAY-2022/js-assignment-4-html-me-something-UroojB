@@ -1,1 +1,50 @@
 /* Write your CSS here! */
+/* Elements (file that already exist in html) */
+body {
+    background-color: white;
+    font-size: 12pt;
+    font-weight: 400;
+    width: 100vw;
+    height: 100vw;
+    color: rgb(112, 5, 5);
+    margin: 8px;
+    display: block;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+header {
+    height: auto;
+    background-color: rgb(112, 5, 5);
+    padding: 20px;
+    margin: 0px;
+    color: rgba(137, 150, 193, 0.945);
+}
+
+
+main {
+    width: 100%;
+    padding: 30px 100px;
+    box-sizing: border-box;
+}
+
+footer {
+    background-color: rgb(112, 5, 5);
+    color:rgba(137, 150, 193, 0.945);
+    text-align: center;
+    height:auto;
+    padding:20px;
+    margin:0px;
+}
+
+
+/* Ids */
+
+#mainHeading {
+    color: red
+}
+
+#testP {
+    color: green;
+}
+/* classes */
